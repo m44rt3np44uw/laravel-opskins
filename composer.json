@@ -1,0 +1,20 @@
+{
+    "name": "m44rt3np44uw/laravel-opskins",
+    "description": "Laravel wrapper for the opskins.com API.",
+    "keywords": ["laravel", "steam", "csgo", "opskins"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maarten Paauw",
+            "email": "maartenpaauw@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "M44rt3np44uw\\OPSkins\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    }
+}
